@@ -7,7 +7,7 @@ import json
 
 def main(filename):
     # read file into lines
-    txtfile = open("i_have_a_dream.txt")
+    txtfile = open(filename)
     lines = txtfile.readlines()
 
     # declare a word list
